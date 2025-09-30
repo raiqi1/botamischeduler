@@ -93,10 +93,10 @@
           </div>
           
           <!-- Right: Live Previews -->
-          <div class="flex flex-col space-y-8 justify-center lg:justify-end">
+          <div class="flex flex-row max-sm:flex-col space-y-8 justify-center lg:justify-end">
             <!-- Chat Preview -->
             <div class="relative">
-              <div class="relative w-full max-w-lg mx-auto bg-gradient-to-b from-slate-800 to-slate-900 rounded-3xl p-1 shadow-2xl">
+              <div class="relative w-full max-w-lg max-sm:w-full mx-auto bg-gradient-to-b from-slate-800 to-slate-900 rounded-3xl p-1 shadow-2xl">
                 <div class="w-full h-[500px] bg-gradient-to-b from-slate-900 to-black rounded-3xl overflow-hidden">
                   
                   <!-- Chat Header -->
