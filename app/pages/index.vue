@@ -28,13 +28,15 @@
         
         <div class="hidden md:flex items-center space-x-8">
           <a href="#features" class="text-white/80 hover:text-white transition-colors">Features</a>
-          <a href="#demo" class="text-white/80 hover:text-white transition-colors">Demo</a>
-          <a href="#pricing" class="text-white/80 hover:text-white transition-colors">Pricing</a>
+          <a href="#demo" class="text-white/80 hover:text-white transition-colors">
+            How It Works
+          </a>
+          <!-- <a href="#pricing" class="text-white/80 hover:text-white transition-colors">Pricing</a> -->
           <NuxtLink 
             to="/login" 
             class="bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 text-white px-6 py-2 rounded-full transition-all transform hover:scale-105"
           >
-            Dashboard
+            Login
           </NuxtLink>
         </div>
       </div>
@@ -61,7 +63,7 @@
             
             <p class="text-xl text-white/80 mb-8 max-w-2xl">
               Kelola jadwal, meeting, dan reminder harian Anda langsung dari WhatsApp. 
-              AI-powered bot yang memahami bahasa natural Indonesia.
+              Bot pintar yang mengerti cara kita ngobrol sehari-hari!
             </p>
             
             <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -69,11 +71,11 @@
                 to="/login"
                 class="bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 text-white px-8 py-4 rounded-2xl font-semibold text-lg transition-all transform hover:scale-105 shadow-2xl"
               >
-                🚀 Masuk Dashboard
+                🚀 Login / Register
               </NuxtLink>
-              <button class="backdrop-blur-md bg-white/10 hover:bg-white/20 border border-white/20 text-white px-8 py-4 rounded-2xl font-semibold text-lg transition-all">
+              <!-- <button class="backdrop-blur-md bg-white/10 hover:bg-white/20 border border-white/20 text-white px-8 py-4 rounded-2xl font-semibold text-lg transition-all">
                 📱 Watch Demo
-              </button>
+              </button> -->
             </div>
             
             <div class="flex items-center justify-center lg:justify-start space-x-8 mt-12 text-white/60">
@@ -261,8 +263,8 @@
             <div class="w-16 h-16 bg-gradient-to-r from-green-400 to-teal-400 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
               <span class="text-2xl">🤖</span>
             </div>
-            <h3 class="text-xl font-bold text-white mb-4">AI Natural Language</h3>
-            <p class="text-white/70">Bicara dengan bot seperti bicara dengan teman. Tidak perlu syntax khusus!</p>
+            <h3 class="text-xl font-bold text-white mb-4">Ngobrol Santai Aja</h3>
+            <p class="text-white/70">Bicara dengan bot-AI seperti bicara dengan teman. Tidak perlu perintah ribet!</p>
           </div>
           
           <div class="group backdrop-blur-md bg-white/5 hover:bg-white/10 border border-white/10 rounded-2xl p-8 transition-all hover:-translate-y-2">
@@ -364,15 +366,18 @@
               to="/login"
               class="bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all transform hover:scale-105 shadow-2xl"
             >
-              🚀 Buka Dashboard
+              🚀 Login / Register 
             </NuxtLink>
-            <button class="backdrop-blur-md bg-white/10 hover:bg-white/20 border border-white/20 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all">
-              📞 Hubungi Sales
-            </button>
+            <NuxtLink 
+              to="/support"
+              class="bg-white/10 hover:bg-white/20 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all transform hover:scale-105 shadow-2xl"
+            >
+              ❓ Bantuan
+            </NuxtLink>
           </div>
           
           <p class="text-white/60 text-sm">
-            ✨ Gratis 14 hari • 🚫 No Credit Card Required • ⚡ Setup dalam 2 menit
+            ✨ Gratis  • 🚫 No Credit Card Required • ⚡ Setup dalam 2 menit
           </p>
         </div>
       </div>
@@ -398,9 +403,9 @@
           </div>
           
           <div class="flex items-center space-x-6 text-white/60">
-            <a href="#" class="hover:text-white transition-colors">Privacy</a>
-            <a href="#" class="hover:text-white transition-colors">Terms</a>
-            <a href="#" class="hover:text-white transition-colors">Support</a>
+            <NuxtLink to="/privacy" class="hover:text-white transition-colors">Privacy</NuxtLink>
+            <NuxtLink to="/terms" class="hover:text-white transition-colors">Terms</NuxtLink>
+            <NuxtLink to="/support" class="hover:text-white transition-colors">Support</NuxtLink>
             <span>© 2025 WA Scheduler. All rights reserved.</span>
           </div>
         </div>

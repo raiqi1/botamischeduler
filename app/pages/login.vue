@@ -16,7 +16,7 @@
             </div>
           </div>
           <h1 class="text-2xl font-bold text-white mb-2">WA Scheduler</h1>
-          <p class="text-white/70">Login dengan nomor WhatsApp Anda</p>
+          <p class="text-white/70">Cek dengan nomor WhatsApp Anda</p>
         </div>
 
         <!-- Login Form -->
@@ -50,7 +50,7 @@
               Checking...
             </span>
             <span v-else>
-              Masuk Dashboard
+              Masuk
             </span>
           </button>
         </form>
